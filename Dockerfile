@@ -8,14 +8,12 @@ ENV HOME=/home/appbox \
 RUN apt update
 RUN apt install -y wget \
                    curl \
-                   nano \
                    git \
                    nginx \
                    php-fpm \
                    supervisor \
                    cron \
                    mysql-server \
-                   net-tools \
                    php-mysql \
                    php-curl
 
